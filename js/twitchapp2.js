@@ -13,7 +13,7 @@ for (i=0;i<streamerNames.length;i++){
       streamerLinkClose = "</a>";
       streamerIcon = "" ; 
       if (data.stream!=null){
-        streamerIcon = "<img class = 'logo' src ='"+data.stream.channel.logo+"''>";
+        streamerIcon = "<img class = 'img-responsive logo' src ='"+data.stream.channel.logo+"''>";
         console.log("icon at "+streamerIcon);
       }
       if (data.stream==null){
